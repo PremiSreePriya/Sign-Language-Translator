@@ -3,19 +3,19 @@ This project detects and recognizes hand gestures (like alphabets or words such 
 
 📦 TECH STACK
 
-🐍 Python               -     	Main programming language
+🔹 Python               -     	Main programming language
 
-🔧 MediaPipe            -    	Extracts 21 hand landmarks from video frames
+🔹 MediaPipe            -    	Extracts 21 hand landmarks from video frames
 
-🎥 OpenCV               -    	Real-time webcam video capture
+🔹 OpenCV               -    	Real-time webcam video capture
 
-🤖 Scikit-learn	       -      ML model (RandomForestClassifier) for gesture classification
+🔹 Scikit-learn	       -      ML model (RandomForestClassifier) for gesture classification
 
-📊 Pandas               -     	Reads and writes dataset to CSV (dataset.csv)
+🔹 Pandas               -     	Reads and writes dataset to CSV (dataset.csv)
 
-🧮 NumPy	               -      Converts landmark data to numeric format for ML processing
+🔹 NumPy	               -      Converts landmark data to numeric format for ML processing
 
-💾 Pickle               -     	Saves/loads trained ML model
+🔹Pickle               -     	Saves/loads trained ML model
 
 🔧 FUNCTIONS EXPLAINED
  
