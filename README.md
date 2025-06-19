@@ -3,19 +3,15 @@ This project detects and recognizes hand gestures (like alphabets or words such 
 
 📦 TECH STACK
 
-🔹 Python               -     	Main programming language
+🔹 Python – Main programming language
 
-🔹 MediaPipe            -    	Extracts 21 hand landmarks from video frames
+🔹 MediaPipe – Detects 21 hand landmarks from video
 
-🔹 OpenCV               -    	Real-time webcam video capture
+🔹 OpenCV – Captures real-time webcam video
 
-🔹 Scikit-learn	       -      ML model (RandomForestClassifier) for gesture classification
+🔹 Scikit-learn – Trains ML model (RandomForestClassifier)
 
-🔹 Pandas               -     	Reads and writes dataset to CSV (dataset.csv)
-
-🔹 NumPy	               -      Converts landmark data to numeric format for ML processing
-
-🔹Pickle               -     	Saves/loads trained ML model
+🔹 NumPy & Pandas – Handle and process landmark data for ML
 
 🔧 FUNCTIONS EXPLAINED
  
@@ -41,13 +37,11 @@ python collect_data.py
 
 🔹Enter a label (e.g., A, HELLO) in the terminal and press Enter
 
-🔹The webcam will open
+🔹The webcam will open, then
+Show your gesture to the camera
 
-🔹Show your gesture to the camera
-
-🔹Press s to save a sample
-
-🔹Press q or Ctrl+C to exit
+🔹Press s to save a sample and
+Press q or Ctrl+C to exit
 
 🧠 Step 3: Train the Model
 
@@ -62,9 +56,8 @@ Saves the model as model.pkl.
 
 python app.py
 
-🔹Starts webcam.
-
-🔹Shows predicted gesture based on current hand position.
+🔹Starts webcam and it
+Shows predicted gesture based on current hand position.
 
 🔹Press q to quit (or Ctrl+C if it doesn’t respond).
 
@@ -74,7 +67,6 @@ python app.py
 
 ✔️For best accuracy, collect multiple samples of each gesture.
 
-✔️Use consistent hand position and lighting during collection.
 
 
 
